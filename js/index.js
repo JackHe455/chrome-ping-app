@@ -11,6 +11,7 @@ let messages=[
     {message:"options_th_port"},
     {message:"options_th_result"},
     {message:"options_th_status"},
+    {message:"options_th_operate"},
     // {message:"options_td_operate_ping"},
     // {message:"options_td_operate_edit"},
     // {message:"options_td_operate_save"},
