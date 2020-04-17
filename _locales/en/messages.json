@@ -1,0 +1,53 @@
+{
+  "title": {
+    "message": "check domain/ip tts time"
+  },
+  "options_header_title": {
+    "message": "Server response time test"
+  },
+  "options_header_content": {
+    "message": "Use TCP protocol to ping the domain name and port to obtain the delay time, and can be tested in batches."
+  },
+  "options_add_domain": {
+    "message": "Add domain name record"
+  },
+  "options_check_all_domain": {
+    "message": "Test all domain names"
+  },
+  "options_th_domain": {
+    "message": "domain"
+  },
+  "options_th_port": {
+    "message": "port"
+  },
+  "options_th_result": {
+    "message": "tcp ping result(ms)"
+  },
+  "options_th_status": {
+    "message": "ping status"
+  },
+  "options_th_operate": {
+    "message": "operate"
+  },
+  "options_td_operate_ping": {
+    "message": "ping"
+  },
+  "options_td_operate_edit": {
+    "message": "edit"
+  },
+  "options_td_operate_save": {
+    "message": "save"
+  },
+  "options_td_operate_delete": {
+    "message": "delete"
+  },
+  "options_save_error_empty": {
+    "message": "The input content cannot be empty!"
+  },
+  "options_ping_tip_title": {
+    "message": "prompt"
+  },
+  "options_ping_tip_content": {
+    "message": "Domain name detection completed !"
+  }
+}

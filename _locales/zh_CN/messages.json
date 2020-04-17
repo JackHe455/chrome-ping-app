@@ -1,0 +1,53 @@
+{
+  "title": {
+    "message": "测试域名/ip的响应时间"
+  },
+  "options_header_title": {
+    "message": "服务器响应时间测试"
+  },
+  "options_header_content": {
+    "message": "使用tcp协议方式对域名和端口进行ping，获取延迟时间，并且可以批量测试。"
+  },
+  "options_add_domain": {
+    "message": "增加域名记录"
+  },
+  "options_check_all_domain": {
+    "message": "测试全部域名"
+  },
+  "options_th_domain": {
+    "message": "域名"
+  },
+  "options_th_port": {
+    "message": "端口"
+  },
+  "options_th_result": {
+    "message": "tcp ping结果（毫秒）"
+  },
+  "options_th_status": {
+    "message": "ping状态"
+  },
+  "options_th_operate": {
+    "message": "操作"
+  },
+  "options_td_operate_ping": {
+    "message": "检测"
+  },
+  "options_td_operate_edit": {
+    "message": "编辑"
+  },
+  "options_td_operate_save": {
+    "message": "保存"
+  },
+  "options_td_operate_delete": {
+    "message": "删除"
+  },
+  "options_save_error_empty": {
+    "message": "输入的内容不能为空！"
+  },
+  "options_ping_tip_title": {
+    "message": "提示"
+  },
+  "options_ping_tip_content": {
+    "message": "域名检测完成！"
+  }
+}

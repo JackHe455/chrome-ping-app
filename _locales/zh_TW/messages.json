@@ -1,0 +1,53 @@
+{
+  "title": {
+    "message": "測試域名/ip的響應時間"
+  },
+  "options_header_title": {
+    "message": "服務器響應時間測試"
+  },
+  "options_header_content": {
+    "message": "使用tcp協議方式對域名和端口進行ping，獲取延遲時間，並且可以批量測試。"
+  },
+  "options_add_domain": {
+    "message": "增加域名記錄"
+  },
+  "options_check_all_domain": {
+    "message": "測試全部域名"
+  },
+  "options_th_domain": {
+    "message": "域名"
+  },
+  "options_th_port": {
+    "message": "端口"
+  },
+  "options_th_result": {
+    "message": "tcp ping結果（毫秒）"
+  },
+  "options_th_status": {
+    "message": "ping狀態"
+  },
+  "options_th_operate": {
+    "message": "操作"
+  },
+  "options_td_operate_ping": {
+    "message": "檢測"
+  },
+  "options_td_operate_edit": {
+    "message": "編輯"
+  },
+  "options_td_operate_save": {
+    "message": "保存"
+  },
+  "options_td_operate_delete": {
+    "message": "刪除"
+  },
+  "options_save_error_empty": {
+    "message": "輸入的內容不能為空！"
+  },
+  "options_ping_tip_title": {
+    "message": "提示"
+  },
+  "options_ping_tip_content": {
+    "message": "域名檢測完成！"
+  }
+}

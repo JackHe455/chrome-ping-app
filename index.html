@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title></title>
+    <link rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="panel panel-info">
+                <!-- Default panel contents -->
+                <div class="panel-heading" id="options_header_title"></div>
+                <div class="panel-body">
+                    <p id="options_header_content"></p>
+                    <div>
+                        <button type="button" class="btn btn-default" id="addDomain"><i class="glyphicon glyphicon-plus"></i><span id="options_add_domain">增加域名记录</span></button>
+                        <button type="button" class="btn btn-success" id="checkAllDomain"><i class="glyphicon glyphicon-play"></i><span id="options_check_all_domain">测试全部域名</span></button>
+                    </div>
+                </div>
+                <!-- Table -->
+                <table class="table table-bordered domain-table">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th id="options_th_domain">domain</th>
+                        <th id="options_th_port">port</th>
+                        <th id="options_th_result">tcp ping result(ms)</th>
+                        <th id="options_th_status">ping status</th>
+                        <th id="options_th_operate">operate</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <!--                    <tr>-->
+                    <!--                        <td class="order">1</td>-->
+                    <!--                        <td>-->
+                    <!--                            <div class="form-group">-->
+                    <!--                                <input type="text" class="form-control" placeholder="doamin">-->
+                    <!--                            </div>-->
+                    <!--                        </td>-->
+                    <!--                        <td class="port">-->
+                    <!--                            <div class="form-group">-->
+                    <!--                                <input type="number" class="form-control" placeholder="port">-->
+                    <!--                            </div>-->
+                    <!--                        </td>-->
+                    <!--                        <td>-->
+                    <!--                            <div class="progress">-->
+                    <!--                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">120ms</div>-->
+                    <!--                            </div>-->
+                    <!--                        </td>-->
+                    <!--                        <td><span class="label label-success">success</span></td>-->
+                    <!--                        <td>-->
+                    <!--                            <button type="button" class="btn btn-success" title="ping"><i class="glyphicon glyphicon-play"></i></button>-->
+                    <!--                            <button class="btn btn-danger" title="delete"><i class="glyphicon glyphicon-trash"></i></button>-->
+                    <!--                        </td>-->
+                    <!--                    </tr>-->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--轻提示-->
+<p class="toast" style="display: none"></p>
+
+<!--加载loading-->
+<div class="loading" style="display: none">
+    <img src="images/loading.gif" alt="">
+</div>
+</body>
+<script type="application/javascript" src="js/jquery.min.js"></script>
+<script type="application/javascript" src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
+<script type="module" src="js/index.js"></script>
+</html>

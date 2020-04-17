@@ -1,0 +1,53 @@
+html,body{
+    overflow: auto!important;
+}
+table .tts-port{
+    max-width: 80px;
+}
+table .form-group{
+    margin-bottom: 0;
+}
+table .progress{
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+table .tts-sort{
+    padding-top: 16px!important;
+}
+table .label{
+    margin-top: 8px;
+    display: inline-block;
+}
+
+.toast{
+    background-color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    max-width: 500px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    color: white;
+}
+.loading{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(248,248,248,0.3);
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.loading img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 50px;
+    height: 50px;
+}

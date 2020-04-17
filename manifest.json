@@ -1,0 +1,23 @@
+{
+  "name": "domain ping",
+  "description": "chrome-ping-app is an app plug-in for chrome browser; use tcp method to detect the delay time of domain name / ip, use the progress bar to display the speed; enter the domain name in chrome-ping-app will be remote Synchronization can also be displayed in the chrome browser of other computers.",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "author": "Jack He",
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": {
+    "16": "images/ping16.png",
+    "128": "images/ping128.png"
+  },
+  "permissions": ["storage","notifications"],
+  "sockets": {
+    "tcp": {
+      "connect": "*"
+    }
+  },
+  "default_locale": "en"
+}
